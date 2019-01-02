@@ -1,0 +1,25 @@
+To copy these file to the current directory, use:
+
+cp ~kurban/public_html/permanent/sample-files/letteroid/* .
+
+
+To compile whats here, type:
+
+g++ main.cpp blinkingletteroid.cpp letteroid.o letteroidfield.o -o runme -lncurses
+
+and type 
+
+runme 
+
+to run the program
+
+or, to compile what's here, type: 
+
+g++ *cpp *o -o runme -lncurses
+
+and type 
+
+runme to run the program
+
+
+NOTE that the .o file will only work on linux and that you have a new command line option, -lncurses which loads the 'ncurses' library, used by letteroids.
